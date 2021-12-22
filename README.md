@@ -5,7 +5,7 @@ REPO NUEVA
 4 Git config --global user.email jmajar18@gmail.com
 5 Git commit -m "mensaje"
 6 git remote add origin -direcion github-
-7 git push origin master
+7 git push -u origin main
 
 REPO EXISTENTE
 git remote add origin https://github.com/JavierManjarres/jmb23.git
