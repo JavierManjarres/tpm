@@ -5,75 +5,212 @@ REPO NUEVA
 4 Git config --global user.email jmajar18@gmail.com
 5 Git commit -m "mensaje"
 6 git remote add origin -direcion github-
-7 git push -u origin main
+7 git push origin master
 
 REPO EXISTENTE
 git remote add origin https://github.com/JavierManjarres/jmb23.git
 git branch -M main
 git push -u origin main
 
---solucion--
-Usuario@DESKTOP-54406F4 MINGW64 ~/Desktop/SpeechtoText (main)
+--SOLUCION--
+
+Usuario@JAVIER-PC MINGW64 ~/Desktop/Proyecto TPM (main)
+$ git init
+Reinitialized existing Git repository in C:/Users/Usuario/Desktop/Proyecto TPM/.git/
+
+Usuario@JAVIER-PC MINGW64 ~/Desktop/Proyecto TPM (main)
 $ git config --global user.name "javier"
 
-Usuario@DESKTOP-54406F4 MINGW64 ~/Desktop/SpeechtoText (main)
-$ git config --global user.email "jmajar18@gmail.com"
-Usuario@DESKTOP-54406F4 MINGW64 ~/Desktop/SpeechtoText (main)
+Usuario@JAVIER-PC MINGW64 ~/Desktop/Proyecto TPM (main)
+$  git config --global user.email "jmajar18@gmail.com"
 
-$ git status
-On branch main
-nothing to commit, working tree clean
-
-Usuario@DESKTOP-54406F4 MINGW64 ~/Desktop/SpeechtoText (main)
-$ echo "# App-Speech-Text" >> README.md
-
-Usuario@DESKTOP-54406F4 MINGW64 ~/Desktop/SpeechtoText (main)
-$ git init
-Reinitialized existing Git repository in C:/Users/Usuario/Desktop/SpeechtoText/.git/
-
-Usuario@DESKTOP-54406F4 MINGW64 ~/Desktop/SpeechtoText (main)
-$ git add README.md
-warning: LF will be replaced by CRLF in README.md.
-The file will have its original line endings in your working directory
-
-Usuario@DESKTOP-54406F4 MINGW64 ~/Desktop/SpeechtoText (main)
-$ git remote add origin https://github.com/JavierManjarres/App-Speech-Text.git
+Usuario@JAVIER-PC MINGW64 ~/Desktop/Proyecto TPM (main)
+$ git remote add origin https://github.com/JavierManjarres/tpm.git
 error: remote origin already exists.
 
-Usuario@DESKTOP-54406F4 MINGW64 ~/Desktop/SpeechtoText (main)
+Usuario@JAVIER-PC MINGW64 ~/Desktop/Proyecto TPM (main)
 $ git remote --verbose
-origin  https://github.com/JavierManjarres/App-Speech-Text (fetch)
-origin  https://github.com/JavierManjarres/App-Speech-Text (push)
+origin  https://github.com/JavierManjarres/tpm.git (fetch)
+origin  https://github.com/JavierManjarres/tpm.git (push)
 
-Usuario@DESKTOP-54406F4 MINGW64 ~/Desktop/SpeechtoText (main)
-$ git push -u origin master
-error: src refspec master does not match any
-error: failed to push some refs to 'https://github.com/JavierManjarres/App-Speech-Text'
-
-Usuario@DESKTOP-54406F4 MINGW64 ~/Desktop/SpeechtoText (main)
+Usuario@JAVIER-PC MINGW64 ~/Desktop/Proyecto TPM (main)
 $ git branch -M main
 
-Usuario@DESKTOP-54406F4 MINGW64 ~/Desktop/SpeechtoText (main)
-$ git push -u origin master
-error: src refspec master does not match any
-error: failed to push some refs to 'https://github.com/JavierManjarres/App-Speech-Text'
-
-Usuario@DESKTOP-54406F4 MINGW64 ~/Desktop/SpeechtoText (main)
-$ git push -u origin master
-error: src refspec master does not match any
-error: failed to push some refs to 'https://github.com/JavierManjarres/App-Speech-Text'
-
-Usuario@DESKTOP-54406F4 MINGW64 ~/Desktop/SpeechtoText (main)
+Usuario@JAVIER-PC MINGW64 ~/Desktop/Proyecto TPM (main)
 $ git push -u origin main
-Enumerating objects: 17, done.
-Counting objects: 100% (17/17), done.
+remote: Support for password authentication was removed on August 13, 2021. Please use a personal access token instead.
+remote: Please see https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/ for more information.
+fatal: Authentication failed for 'https://github.com/JavierManjarres/tpm.git/'
+
+Usuario@JAVIER-PC MINGW64 ~/Desktop/Proyecto TPM (main)
+$ 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
+bash: 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: command not found
+
+EN LA VENTANA QUE EXPLOTA USUARIO: javier
+Y CONTRASEÑA: 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 
+GENERA CONTRASEÑA EN Personal access tokens VE A CONFIGURACION
+
+Usuario@JAVIER-PC MINGW64 ~/Desktop/Proyecto TPM (main)
+$ git push -u origin main
+Enumerating objects: 50, done.
+Counting objects: 100% (50/50), done.
 Delta compression using up to 2 threads
-Compressing objects: 100% (13/13), done.
-Writing objects: 100% (17/17), 6.29 KiB | 715.00 KiB/s, done.
-Total 17 (delta 0), reused 0 (delta 0), pack-reused 0
-To https://github.com/JavierManjarres/App-Speech-Text
+Compressing objects: 100% (50/50), done.
+Writing objects: 100% (50/50), 1.54 MiB | 1.67 MiB/s, done.
+Total 50 (delta 3), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (3/3), done.
+To https://github.com/JavierManjarres/tpm.git
  * [new branch]      main -> main
 Branch 'main' set up to track remote branch 'main' from 'origin'.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 CLONAR GITHUB
